@@ -64,5 +64,5 @@ ru:
       archive: Архив
   time:
     formats:
-      blog_date: "%e %b %Y"
+      blog_date: "%e %B %Y"
       
