@@ -9,7 +9,6 @@ json.set! :data do
 end
 
 json.set! :blog_entry do
-  binding.pry
   json.title @blog_entry.title
   json.body @blog_entry.body
   json.permalink @blog_entry.permalink
