@@ -20,14 +20,14 @@
     <%= form.field_container :category_list do %>
 	<div class="form-group">
       <%= form.label :category_list, Spree.t(:category_list)  %>
-      <%= form.text_field :category_list, :class => '' %>
+      <%= form.text_field :category_list, value: @blog_entry.category_list.join(", ") %>
 	  </div><!-- form-group -->
     <% end %>
 
     <%= form.field_container :tag_list do %>
 	<div class="form-group">
       <%= form.label :tag_list, Spree.t(:tag_list) %>
-      <%= form.text_field :tag_list, :class => '' %>
+      <%= form.text_field :tag_list, value: @blog_entry.tag_list.join(", ") %>
 	  </div><!-- form-group -->
     <% end %>
 
