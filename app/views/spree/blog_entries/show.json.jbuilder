@@ -1,13 +1,3 @@
-json.set! :data do
-  # json.array!(@exhibitions) do |exhibition|
-  #   json.extract! exhibition, :cover_image, :curator, :date_formatted, :location_vetted
-  #   json.exhibition_path exhibition_path(exhibition)
-  #   json.artists_count exhibition.artist_exhibitions.count
-  #   json.title exhibition.title.present? ? exhibition.title : (exhibition.artist_exhibitions.count > 6 ? "Group Exhibition" : nil)
-  #   json.artists_listing exhibition.artists_listing_landing
-  # end
-end
-
 json.set! :blog_entry do
   json.title @blog_entry.title
   json.subtitle @blog_entry.subtitle
