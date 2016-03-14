@@ -82,15 +82,6 @@
   </div><!-- row -->
 <div class='row'>
   <div class="col-sm-6">
-
-    <%= form.field_container :author_id do %>
-      <%= form.label :author_id, Spree.t(:author_id) %><br />
-      <%= form.select :author_id, Spree.user_class.joins(:spree_roles).where("#{Spree::Role.table_name}.name" => "blogger").collect {|u| [u.email, u.id]}, {:include_blank => true}, :class => 'select2' %>
-    <% end %>
-	</div><!-- col-sm-6 -->	
-	</div><!-- row -->
-<div class='row'>
-  <div class="col-sm-6">
     <%= field_set_tag Spree.t(:blog_entry_featured_image) do %>
       <% @blog_entry.build_blog_entry_image unless @blog_entry.blog_entry_image %>
 

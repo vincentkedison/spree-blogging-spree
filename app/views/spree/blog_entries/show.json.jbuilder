@@ -19,7 +19,6 @@ json.set! :blog_entry do
   json.visible @blog_entry.visible
   json.published_at @blog_entry.published_at
   json.summary @blog_entry.summary
-  json.author_id @blog_entry.author_id
 end
 
 json.set! :meta do
