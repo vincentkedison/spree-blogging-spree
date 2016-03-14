@@ -30,6 +30,7 @@ en:
     permalink: Permalink
     published_at: Published at
     visible: Visible
+    subtitle: subtitle
     author_id: Author
     tag_list: Tags
     category_list: Categories
