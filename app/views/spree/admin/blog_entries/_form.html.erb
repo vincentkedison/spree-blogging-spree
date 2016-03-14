@@ -9,6 +9,14 @@
       </div>
     <% end %>
 
+    <%= form.field_container :permalink do %>
+      <div class="form-group">
+        <%= form.label :permalink, Spree.t(:permalink) %> <span class="text-danger">*</span><br />
+        <%= form.text_field :permalink, :class => 'form-control' %>
+        <%= form.error_message_on :permalink %>
+      </div>
+    <% end %>
+
     <%= form.field_container :subtitle do %>
       <div class="form-group">
         <%= form.label :subtitle, Spree.t(:subtitle) %> <span class="text-danger">*</span><br />
@@ -17,12 +25,12 @@
       </div>
     <% end %>
 
-    <%= form.field_container :permalink do %>
-		<div class="form-group">
-      <%= form.label :permalink, Spree.t(:permalink) %> <span class="text-danger">*</span><br />
-      <%= form.text_field :permalink, :class => 'form-control' %>
-      <%= form.error_message_on :permalink %>
-	  </div><!-- form-group -->
+    <%= form.field_container :byline do %>
+      <div class="form-group">
+        <%= form.label :byline, Spree.t(:byline) %> <span class="text-danger">*</span><br />
+        <%= form.text_area :byline, { :rows => 2, :class => 'form-control', :id => 'blog_entry_byline'} %>
+        <%= form.error_message_on :byline %>
+      </div>
     <% end %>
 
     <%= form.field_container :category_list do %>

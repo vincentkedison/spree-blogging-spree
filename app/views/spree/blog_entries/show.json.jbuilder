@@ -10,7 +10,8 @@ end
 
 json.set! :blog_entry do
   json.title @blog_entry.title
-  json.title @blog_entry.subtitle
+  json.subtitle @blog_entry.subtitle
+  json.byline @blog_entry.byline
   json.body @blog_entry.body
   json.permalink @blog_entry.permalink
   json.created_at @blog_entry.created_at
