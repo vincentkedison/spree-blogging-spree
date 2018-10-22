@@ -18,6 +18,9 @@ ru:
         author_id: Автор
         tag_list: Ключевые слова
         category_list: Категории
+        meta_title: Мета заголовок
+        meta_description: Мета описание
+        meta_keywords: Ключевые слова
       spree/user:
         nickname: Псевдоним (ник)
         website_url: Ссылка на сайт
@@ -65,4 +68,3 @@ ru:
   time:
     formats:
       blog_date: "%e %B %Y"
-      
