@@ -18,6 +18,9 @@ en:
         author_id: Author
         tag_list: Tags
         category_list: Categories
+        meta_title: Meta title
+        meta_description: Descripcion
+        meta_keywords: Keywords
       spree/user:
         nickname: Nickname
         website_url: Website URL
