@@ -2,13 +2,13 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_blogging_spree'
-  s.version     = '3.0.0'
+  s.version     = '3.0.1'
   s.summary     = 'BloggingSpree: A Spree blogging solution'
   s.description = 'A basic blogging solution for use with the Spree E-Commerce platform.'
   s.required_ruby_version = '>= 1.9.3'
 
-  s.author    = 'Stefan Senk, Sumit Sharma'
-  s.email     = 'forever.sumitsharma@gmail.com'
+  s.author    = 'Vincent Edison, Stefan Senk, Sumit Sharma'
+  s.email     = 'vincent@luxodev.com'
   # s.homepage  = 'http://www.spreecommerce.com'
 
   #s.files       = `git ls-files`.split("\n")
